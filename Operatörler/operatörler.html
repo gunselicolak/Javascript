@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operatörler</title>
+
+    <script type = text/javascript>
+
+    /*
+    Operatörlere Giriş
+    1-Aritmetik Operatörler 
+        + => toplama
+        - => çıkarma 
+        * => çarpma 
+        / => bölme
+        % => mod alma
+    2-Atama Operatörleri
+        = => atama operatörü
+        += => toplar ve atama yapar
+        -= => çıkarır ve atmam yapar
+        *= => çarpar ve atama yapar
+        /= => böler atama yapar
+        %= => kalanı verir ve atama yapar
+    3-Arttırma ve Eksiltme Operatörler
+        ++ => değişkenin değerini 1 arttırır
+        -- => değişkenini değerini 1 azaltır
+    4-Karşılaştırma Operatörleri
+        == => eşitse
+        != => eşit değilse
+        === => kesin eşitse(aynıysa)
+        !== => kesin eşit değilse(aynı değilse)
+        > => büyükse
+        < => küçükse
+        >= => büyük eşitse
+        <= => küçük eşitse
+    5-Mantıksal Operatörler
+        && => ve => şartlardan ikisi de gerçekleşmiş olmalı
+        || => veya  => şartlardan biri gerçekleşmiş olmalı
+        => (ALT tuşuna basılı 124 tuşla) 
+        ! => değil 
+    6-String Operatörü
+
+    */
+
+    // 1 örnekleri
+    var sayi1 = 50;
+    var sayi2 = 50;
+
+    console.log("Toplama İşleminin Sonucu :" , sayi1+sayi2);
+    console.log("Çıkarma İşleminin Sonucu :" , sayi1-sayi2);
+    console.log("Bölme İşleminin Sonucu :" , sayi1/sayi2);
+    console.log("Çarpma İşleminin Sonucu :" , sayi1*sayi2);
+    console.log("Kalan Bulma İşleminin Sonucu :" , sayi1%sayi2);
+
+    // 2 örnekleri
+
+    var e = 10;
+    var name = "Günseli";
+
+    e +=10;
+    console.log(e);
+
+    e-=10;
+    console.log(e);
+
+    e*=10;
+    console.log(e);
+
+    e/=10;
+    console.log(e);
+
+    e%=10;
+    console.log(e);
+
+    console.log(name);
+
+    // 3 örnekleri
+
+    var sayi3 = 10;
+    sayi3 ++; // değişkenin değerini 1 artırır
+    ++sayi3; // diğer kullanımı 
+    console.log(sayi3);
+
+    var sayi4 = 20;
+    sayi4--;
+    --sayi4;
+    console.log(sayi4);
+
+    // kullanımı
+    for(i = 100; i>=0; i--)
+    {
+        console.log(i);
+    } 
+
+    // 4 örnekleri
+    var a = 10;
+    var b = 12;
+    if(a!==b)
+    {
+        console.log("aynı değil");
+    }
+
+    //
+
+    var ad = "Günseli";
+    var soyad = "Çolak";
+    var adSoyad = ad +" "+soyad;
+
+    console.log(adSoyad);
+
+    adSoyad += " 2017";
+    console.log(adSoyad);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
