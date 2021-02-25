@@ -150,5 +150,11 @@ document.write(programlamaDilleri+ "<br>"+ "<br>");
 document.write("indexof: elemanın dizi içerisindeki konumu "+ "<br>");
 document.write(programlamaDilleri.indexOf("PHP")+"<br>"+"<br>");
 
-//some
+//some : true/false 
 document.write("some: "+ "<br>");
+    var yas = new Array(5,8,9,11,18);
+    function yasKontrol(events){
+        return events >= 18;
+    }
+
+    document.write(yas.some(yasKontrol));
