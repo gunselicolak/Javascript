@@ -62,3 +62,5 @@ function tekrarla(param){
 
 tekrarla(5);
 */
+
+// Hazır Fonksiyonlara Giriş
