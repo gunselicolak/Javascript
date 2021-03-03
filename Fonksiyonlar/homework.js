@@ -4,14 +4,14 @@
     fonsiyonu yazın..
 */
 
-    function yasHesap(dyil)
-    {
+function yasHesap(dyil)
+{
     var yas =(2020-dyil);
     return yas;
-    }
+}
 
-    document.write(yasHesap(1999)+"<br>");
-    document.write(yasHesap(1958)+"<br>"+"<br>");
+document.write(yasHesap(1999)+"<br>");
+document.write(yasHesap(1958)+"<br>"+"<br>");
 
 
 /*
@@ -21,12 +21,13 @@
     ad yaşı yaş
 */
 
+function kisininYasi(ad,dyil){
+    var adyas = ad +" yaş : "+(2020-dyil);
+    return adyas;
+}
 
-
-
-
-
-
+document.write(kisininYasi("Elif",1999)+"<br>");
+document.write(kisininYasi("Cenk",1998)+"<br>"+"<br>");
 
 /*
     Homework 3
