@@ -64,24 +64,24 @@ tekrarla(5);
 */
 
 // Hazır Fonksiyonlara Giriş
-  // encodeURI
+    // encodeURI : bir url kodlamak için kullanılabilir // şifreler
+    // decodeURI : şifreyi çözer
 
-    var url = "my test.html?as=gunseli&soyad=susi";
+    var url = "my test.html?ad=gunseli&soyad=susi";
 
-    document.write(url);
+    document.write(url+"<br>");
 
-    document.write(encodeURI(url));
+    document.write(encodeURI(url)+"<br>");
 
+    document.write(decodeURI(url)+"<br>");
 
-    // decodeURI
+    // eval : string değerlerden dinamik bir js kodu üretir, işlev katar
 
+    var a = 10;
+    var b = 20;
 
+    var c = "a+b";
+    var d = eval("a+b");
 
-    // eval 
-
-
-    // isFinite 
-
-
-
-    // isNAN
+    document.write(c+"<br>");
+    document.write(d+"<br>");
