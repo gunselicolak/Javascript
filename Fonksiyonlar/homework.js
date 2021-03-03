@@ -4,9 +4,14 @@
     fonsiyonu yazın..
 */
 
+    function yasHesap(dyil)
+    {
+    var yas =(2020-dyil);
+    return yas;
+    }
 
-
-
+    document.write(yasHesap(1999)+"<br>");
+    document.write(yasHesap(1958)+"<br>"+"<br>");
 
 
 /*
