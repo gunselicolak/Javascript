@@ -64,3 +64,24 @@ tekrarla(5);
 */
 
 // Hazır Fonksiyonlara Giriş
+  // encodeURI
+
+    var url = "my test.html?as=gunseli&soyad=susi";
+
+    document.write(url);
+
+    document.write(encodeURI(url));
+
+
+    // decodeURI
+
+
+
+    // eval 
+
+
+    // isFinite 
+
+
+
+    // isNAN
