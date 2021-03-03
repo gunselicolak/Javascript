@@ -85,3 +85,21 @@ tekrarla(5);
 
     document.write(c+"<br>");
     document.write(d+"<br>");
+
+    /* 
+    isFinite : Bir numaranın sonlu, yasal bir numara olup 
+    olmaadığını kontrol edin: 
+    Number.MAX_VALUE : Değişkenlerin maksimum alabileceği değer : 1.97E+308
+    Number.MIN_VALUE : Değişkenlerin minimum alabileceği değer : 5e-324
+    Number.POSITIVE_INFINITY : Değişken maksimum sınırı aştığı zaman döner.
+    Number.NEGATIVE_INFINITY : Değişken minumum sınırı aştığı zaman döner.
+    bir stringi sayıya dönüştürebilirse değiştirir.
+    */
+
+    var i = isFinite(-100000);
+    var f = isFinite("gunseli");
+
+    document.write(i+"<br>");
+    document.write(f+"<br>");
+
+    // isNAN : bir değerin geçersiz bir sayı olup olmadığını değerlendirir. geçersizse true
