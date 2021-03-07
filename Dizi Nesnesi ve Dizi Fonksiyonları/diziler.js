@@ -140,7 +140,6 @@ document.write(programlamaDilleri+ "<br>");
 programlamaDilleri.reverse();
 document.write(programlamaDilleri+ "<br>"+ "<br>");
 
-
 //sort
 document.write("sort: "+ "<br>");
 programlamaDilleri.sort();
