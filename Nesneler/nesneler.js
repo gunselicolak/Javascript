@@ -24,4 +24,4 @@
         this.kmsi = km;
     }
 
-    var araba1 = new araba("")
+    var araba1 = new araba(" ")
