@@ -60,3 +60,59 @@
     document.write(insan.soyad);
     document.write(insan.yas);
 
+
+
+
+
+
+
+
+
+
+
+
+// Nesnelere Metod Ekleme : Nesne özelliğine fonksiyon tanımlamak
+
+    var Insan = {
+        isim: "bilge",
+        soyad: "ışık",
+        yas: 19,
+        adSoyad:function(){
+            return this.ad+" "+this.soyad;
+        },
+        dogumTarihiHesap:function(){
+            return(2020-this.yas);
+        }
+    }
+    
+    document.write(Insan.adSoyad()+"<br>");
+    document.write(Insan.dogumTarihiHesap()+"<br>");
+
+// Prototype Nesneler Özellik Ekleme
+    
+
+
+
+
+
+
+
+
+
+
+
+// String Nesnesi
+
+// length : Dizinin uzunluğunu döndürür.
+// indexOf() : Belirlenen bir dizedeki belirtilen bir metnin ilk bulunduğu yerin komutunu döndürür.
+// lastindexOf() : Birden fazla aynı kelime varsa sondaki dizenin konumunu verir.
+// search() : indexOf'tan farkı ikinci bir başlangıç konumu alamaz.
+// substr() : Belirlediğimiz karakterden sonrasını(belli bir bölüm de olabilir) almamızı sağlar. 
+// replace() : Herhangi bir ifadeyi değiştirmemizi sağlar.
+
+
+
+// toLowerCase() : Büyük text karakterlerini küçük karakterlere çevirir.
+// toUpperCase() : 
+// concat() : 
+    
