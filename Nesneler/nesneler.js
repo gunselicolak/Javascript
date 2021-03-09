@@ -115,4 +115,4 @@
 // toLowerCase() : Büyük text karakterlerini küçük karakterlere çevirir.
 // toUpperCase() : 
 // concat() : 
-    
+// split() : Bir stringi diziye çevirir.
