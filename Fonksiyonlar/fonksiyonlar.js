@@ -102,4 +102,47 @@ tekrarla(5);
     document.write(i+"<br>");
     document.write(f+"<br>");
 
-    // isNAN : bir değerin geçersiz bir sayı olup olmadığını değerlendirir. geçersizse true
+    // isNAN : bir değerin geçersiz bir sayı olup olmadığını değerlendirir. olumsuz -> true
+
+    var name = "sushi";
+    var sayi = 9;
+
+    var n = name + sayi;
+
+    var n1 = isNaN(n);
+
+    if(isNaN(n))
+    {
+        document.write(n1+" Bu bir sayı değildir"+"<br>");
+    }
+    else{
+        document.write(n1+" Bu bir sayıdır."+"<br>");
+    }
+
+    // Number : farklı nesne değerlerini rakamlara çevirir
+
+    var e = "123";
+    document.write(typeof e+" "+e+"<br>");
+    document.write(typeof Number(e)+e+"<br>");
+    document.write(Number(e)+"<br>");
+
+    // parseFloat : string parametresini floata dönüştürür
+
+    var f = parseFloat("18.00");
+    document.write(f+"<br>");
+
+    // parseInt : string parametresini integera dönüştürür
+
+    var i = parseInt("123 ee");
+    document.write(i+"<br>");
+    document.writeln(parseInt("11",16)+"<br>");
+    document.writeln(parseInt("11",10)+"<br>");
+    document.writeln(parseInt("11",8)+"<br>");
+    document.writeln(parseInt("11",2)+"<br>");
+    
+    // String : 
+
+    var s = new Date();
+
+    document.write(typeof String(s)+"<br>");
+    document.write(String(s));
