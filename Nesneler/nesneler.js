@@ -25,4 +25,6 @@
     }
 
     var araba1 = new araba("Kia","Beyaz","2017",0);
-        console.log(araba1);
+    
+    console.log(araba1);
+
