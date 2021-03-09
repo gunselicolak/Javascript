@@ -25,6 +25,8 @@
     }
 
     var araba1 = new araba("Kia","Beyaz","2017",0);
-    
+    var araba1 = new araba("Toyota","Gri","2019",2000);
+
     console.log(araba1);
+    console.log(araba2);
 
