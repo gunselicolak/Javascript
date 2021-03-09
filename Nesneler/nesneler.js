@@ -116,3 +116,6 @@
 // toUpperCase() : 
 // concat() : 
 // split() : Bir stringi diziye çevirir.
+
+
+// Math Nesnesi
