@@ -119,3 +119,15 @@
 
 
 // Math Nesnesi
+/*
+    E -> 2.718 olan e değerini döndürür.
+    LN10 -> 10'un algoritmasını döndürür.
+    LN2 -> 2' nin algoritmasını dödürür.
+    SQRT2 -> 2'nin karekökünü döndürür
+    PI -> pi sayısını döndürür.
+    LOG2E -> e'nin logaritmasını verir
+*/
+
+
+
+// Date Nesnesi 
