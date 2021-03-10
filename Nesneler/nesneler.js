@@ -60,15 +60,29 @@
     document.write(insan.soyad);
     document.write(insan.yas);
 
-
-
-
-
-
-
-
-
-
+    var human = [
+    
+        {
+            isim :"özcan",
+            soyIsim  :"mutlu",
+            yas : "30",
+            dogumTarihi: "1990"
+        },
+        
+        {
+            isim :"semih",
+            soyIsim  :"pak",
+            yas : "23",
+            dogumTarihi: "1997"       
+        },
+        
+        {
+            isim :"leyla",
+            soyIsim  :"lale",
+            yas : "15",
+            dogumTarihi: "2005"       
+        }
+    ];
 
 
 // Nesnelere Metod Ekleme : Nesne özelliğine fonksiyon tanımlamak
@@ -91,14 +105,18 @@
 // Prototype Nesneler Özellik Ekleme
     
 
+function araba(marka,renk,model)
+{
+    this.marka = marka;
+    this.renk = renk;
+    this.model = model;
+}
 
+araba.prototype.fiyat = 200000;
 
+var araba1 = new araba ("Kartal","Beyaz", "1993");
 
-
-
-
-
-
+console.log(araba1);
 
 
 // String Nesnesi
@@ -110,7 +128,9 @@
 // substr() : Belirlediğimiz karakterden sonrasını(belli bir bölüm de olabilir) almamızı sağlar. 
 // replace() : Herhangi bir ifadeyi değiştirmemizi sağlar.
 
+var r = "Ben bir Biligsayar Mühendisiyim";
 
+document.write(r.replace());
 
 // toLowerCase() : Büyük text karakterlerini küçük karakterlere çevirir.
 // toUpperCase() : 
@@ -127,7 +147,11 @@
     PI -> pi sayısını döndürür.
     LOG2E -> e'nin logaritmasını verir
 */
-
-
+/*
+ceil : ondalıklı sayısı en yakın tam sayıya yuvarlar. (yukarı yuvarlar)
+floor : kendisine en yakın bir alt tam sayıya yuvarlar.
+min/max :
+round : 
+*/
 
 // Date Nesnesi 
