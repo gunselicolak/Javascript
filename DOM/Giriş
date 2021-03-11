@@ -1,0 +1,24 @@
+DOM(Documnet Object Model) Nedir?
+
+DOM, bir W3C (World Wide Web Consortium) standardıdır.
+
+DOM, belgelere erişim için bir standart tanımlar:
+
+"W3C Belge Nesne Modeli (DOM), programların ve komut dosyalarının bir belgenin içeriğine, yapısına ve stiline dinamik olarak erişmesine 
+ve bunları güncellemesine olanak tanıyan bir platform ve dilden bağımsız bir arabirimdir."
+
+W3C DOM standardı 3 farklı bölüme ayrılmıştır:
+
+Core DOM - tüm belge türleri için standart model
+XML DOM - XML belgeleri için standart model
+HTML DOM - HTML belgeleri için standart model
+
+HTML DOM nedir?
+HTML DOM, HTML için standart bir nesne modeli ve programlama arayüzüdür. 
+Şunları tanımlar:
+
+Nesne olarak HTML öğeleri
+Tüm HTML öğelerinin özellikleri
+Tüm HTML öğelerine erişim yöntemleri
+Tüm HTML öğeleri için olaylar
+Başka bir deyişle: HTML DOM, HTML öğelerinin nasıl alınacağına, değiştirileceğine, ekleneceğine veya silineceğine ilişkin bir standarttır.
