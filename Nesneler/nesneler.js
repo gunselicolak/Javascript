@@ -160,6 +160,16 @@ random : 0 ile 1 arasında sayı üretir.
 
 /*
 getDate :
+getDay:
+getMonth: ayı döndürür. (0-11)
+getFullYear: yılı döndürür
+setDate: 
+setFullYear: 
+setMonth: 
+getHours: saati döndürür.
+setHours: saati ayarlar.
+getMinutes: dakikayı döndürür.
+setMinutes: 
 
 
 */
