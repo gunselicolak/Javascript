@@ -151,7 +151,10 @@ document.write(r.replace());
 ceil : ondalıklı sayısı en yakın tam sayıya yuvarlar. (yukarı yuvarlar)
 floor : kendisine en yakın bir alt tam sayıya yuvarlar.
 min/max :
-round : 
+round : kendisine en yakın tam sayıya yuvarlar.
+sqrt : girilen sayının karekökünü verir.
+random : 0 ile 1 arasında sayı üretir.
 */
+
 
 // Date Nesnesi 
