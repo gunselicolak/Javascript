@@ -156,5 +156,10 @@ sqrt : girilen sayının karekökünü verir.
 random : 0 ile 1 arasında sayı üretir.
 */
 
-
 // Date Nesnesi 
+
+/*
+getDate :
+
+
+*/
