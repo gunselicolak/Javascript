@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <style type="text/css">
+    
+    </style>
+
+    
+</head>
+<body>
+ 
+    <p id="paragraf"> Javascript </p>
+    
+    <p id="name"> gunseli </p>
+    <p id="surname"> colak </p>
+
+    <script type="text/javascript">
+
+    // innerHTML : bir html öğesinin içersini değiştirebilir veya  geri dödürüp alabiliriz.
+
+    var e = document.getElementById("paragraf").innerHTML; 
+    console.log(e);
+
+    var name = document.getElementsId("name").innerHTML;
+    var surname = document.getElementById("surname").innerHTML;
+
+    document.write(name+" "+surname);
+
+    // İçerik Değiştirme
+
+    document.write(document.getElementById("paragraf").innerHTML="değiştim");
+
+    </script>
+</body>
+</html>
