@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <style type="text/css">
+     
+    </style>
+
+    
+</head>
+<body>
+    
+    <p>Javascript</p>
+    <p>HTML</p>
+    <p>CSS</p>
+
+    <ul>
+        <li>Java</li>
+        <li>C++</li>
+        <li>ASP.NET</li>
+        <li>Matlab</li>
+    </ul>
+
+    <br> <br>
+
+    <button onclick="say()"> Programlama Dillerini Say </button>
+
+    <script type="text/javascript">
+
+    // getElementswByTagName : etikete ait tüm elemanları bulmayı sağlar.
+
+    console.log(document.getElementsByTagName("p")[0]);
+    console.log(document.getElementsByTagName("p"));
+
+    var e = document.getElementsByTagName("p");
+    alert(e.length);
+
+    function say(){
+        alert(document.getElementsByTagName("li").length+ " programlama dili bulunmaktadır.");
+    }
+
+    </script>
+</body>
+</html>
