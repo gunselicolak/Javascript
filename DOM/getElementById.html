@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <style type="text/css">
+        #gun{
+            color:blue;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <p id="paragraf"> Javascript öğrenmek </p>
+
+    <input id="name" type="text" placeholder="Adınızı Grin" name=""> 
+    <br> <br>
+    <input id="sec" type="checkbox" name=""> Seçim Yap
+    <br> <br>
+    <button id="olay" onclick="renklendir()"> Id Değiştir</button>
+    <button id="olay2" onclick="secimYap()"> İşaretle</button>
+
+    <script type="text/javascript">
+
+    // getElementById
+
+    function renklendir(){
+        document.getElementById("paragraf").id="gun";
+        document.getElementById("name").placeholder="Soyadınızı Girin";
+    }
+
+    function secimYap(){
+        document.getElementById("sec").checkbox="true";
+    }
+    </script>
+</body>
+</html>
