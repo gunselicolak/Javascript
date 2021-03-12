@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <style type="text/css">
+    
+    </style>
+
+    
+</head>
+<body>
+ 
+   <a id="paragraf"> Javascript sayfasına git </a>
+   <br> 
+   <button type="butoon" onclick="islem()"> Ekle </button>
+   <br>
+   <button type="butoon" onclick="targetEkle()"> Target Ekle </button>
+
+    <script type="text/javascript">
+
+    // attributes-setAttiribute-hasAttributes
+
+    function islem(){
+
+        document.getElementById("paragraf").setAttribute("href","https://www.jsvascript.com");
+        
+        var e = document.getElementById("paragraf").attributes;
+        console.log(e);
+    }
+
+    function targetEkle(){
+        var t = document.getElementById("paragraf");
+        console.log(y);
+    }
+    </script>
+</body>
+</html>
