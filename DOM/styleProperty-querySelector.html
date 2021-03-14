@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <style type="text/css">
+    /*
+        #paragraf{
+            background-color: blue;
+        }
+    */
+    </style>
+
+    
+</head>
+<body>
+
+    <p id="paragraf"> Javascript <p>
+    
+    <input type="button" onclick="islem()" value="Değiştir" name="">
+
+    <h1> CSS, HTML</h1>
+
+    <button onclick="sec()"> DEĞİŞTİR </button>
+
+    <script type="text/javascript">
+
+    // style.property - CSS Özelliklerine Müdahale
+
+    function islem(){
+        document.getElementById("paragraf").style.backgroundColor="blue";
+        document.getElementById("paragraf").style.color="yellow";
+    }
+
+    // querySelector - CSS Özelliklerine Müdahale
+
+    function sec(){
+        document.querySelector("h1").style.backgroundColor="black";
+        document.querySelector("h1").style.color="white";
+    }
+
+    </script>
+</body>
+</html>
