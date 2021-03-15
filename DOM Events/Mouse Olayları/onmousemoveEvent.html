@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <style type="text/css"> </style>
+
+</head>
+<body>
+
+   <button onmousemove="gez(this)"> Üzerinde Gez </button>
+
+   <div id="cikti"> </div>
+
+    <script type="text/javascript">   
+        function gez(cikti){
+            var x = event.clientX;
+            var y = event.clientY;
+            var top="X Koordinatı " +x+ "Y Koordinatı " +y;
+            cikti.innerHTML=top;
+        }
+    </script>
+</body>
+</html>
