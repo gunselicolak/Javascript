@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <style type="text/css"> </style>
+
+</head>
+<body>
+
+    <h1 onclick="içerikDeğitir(this)"> Javascript </h1>
+
+    <button onclick="displayDate()"> Tarih ve Saati Göster </button>
+
+    <p id="tarihsaat"> </p>
+
+    <script type="text/javascript">
+
+        function içerikDeğitir(icerik){
+            icerik.innerHTML="Javascript DOM Events";
+        }
+
+        function displayDate(){
+            document.getElementById("tarihsaat").innerHTML=Date();
+        }
+    </script>
+</body>
+</html>
