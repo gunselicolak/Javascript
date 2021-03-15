@@ -2,10 +2,10 @@
     sayıların toplamını veren  projeyi yapın
 */
 
-function hesapla(){
+function hesapla()
+{
     var sayi1 =  parseInt(document.getElementById("sayi1").value);
     var sayi2 =  parseInt(document.getElementById("sayi2").value);
 
-    document.getElementById("sonuc").innerHTML=sayi1+sayi2;
-    
+    document.getElementById("sonuc").innerHTML=sayi1+sayi2;    
 }
