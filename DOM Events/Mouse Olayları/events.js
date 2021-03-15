@@ -1,10 +1,13 @@
-function ciftTikla(){
+function ciftTikla()
+{
     alert("Çift Tıklandı");
 }
-function sagTikla(){
+function sagTikla()
+{
     alert("Sağ Tıklandı");
 }
-function kontrol(){
+function kontrol()
+{
     var k = confirm("Onaylıyor musunuz?");
 
     if(k==true){
@@ -14,13 +17,16 @@ function kontrol(){
         document.getElementById("cevap").innerHTML="Onay verilmedi.";
     }
 }
-function uzerineGeldi(){
+function uzerineGeldi()
+{
     alert("Üzerine Geldi");
 }
-function uzerindenGitti(){
+function uzerindenGitti()
+{
     console.log("Gitti..");
 }
-function yuklendi(){
-    console.log("Sayfa yüklendi...")
+function yuklendi()
+{
+    console.log("Sayfa yüklendi...");
 }
 //window.onload=yuklendi;
