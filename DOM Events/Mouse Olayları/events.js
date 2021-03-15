@@ -1,0 +1,32 @@
+function ciftTikla(){
+    alert("Çift Tıklandı");
+}
+function sagTikla(){
+    alert("Sağ Tıklandı");
+}
+function kontrol(){
+    var k = confirm("Onaylıyor musunuz?");
+
+    if(k==true){
+        document.getElementById("cevap").innerHTML="Onay verildi.";
+    }
+    else{
+        document.getElementById("cevap").innerHTML="Onay verilmedi.";
+    }
+}
+function uzerineGeldi(){
+    alert("Üzerine Geldi");
+}
+function uzerindenGitti(){
+    console.log("Gitti..");
+}
+function yuklendi(){
+    console.log("Sayfa yüklendi...")
+}
+//window.onload=yuklendi;
+function gitti(girdi){
+        girdi.innerHTML="Fare Gitti";
+}
+function geldi(){
+    document.getElementById("tıkla").innerHTML="Fare Geldi";
+}
