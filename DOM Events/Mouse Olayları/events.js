@@ -59,3 +59,6 @@ function tiklaShift(event){
     2 -> mouse orta tuşu
     3 -> mouse sağ tuşu
 */
+function wislem(event){
+    document.getElementById("cikti").innerHTML="Tıkladığınız Tuş : "+event.which;
+}
