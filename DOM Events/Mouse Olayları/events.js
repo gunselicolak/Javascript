@@ -54,3 +54,8 @@ function tiklaShift(event){
         alert("SHIFT tuşuna basılmadı");
     }
 }
+/*  which - klavye tuşlarını yakalamamızı sağlar
+    1 -> mouse sol tuşu
+    2 -> mouse orta tuşu
+    3 -> mouse sağ tuşu
+*/
