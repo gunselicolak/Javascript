@@ -46,3 +46,11 @@ function tiklaAlt(event){
         alert("ALT tuşuna basılmadı");
     }
 }
+function tiklaShift(event){
+    if(event.shiftKey){
+        alert("SHIFT tuşu basılıyken mouse ile tıkladınız");
+        }
+    else{
+        alert("SHIFT tuşuna basılmadı");
+    }
+}
