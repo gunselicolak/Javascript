@@ -8,3 +8,7 @@ try{
 catch(err){
         document.write("Hatalı İşlem: " +err)
 }
+
+// tryCatchFinally
+
+// tryThrow
