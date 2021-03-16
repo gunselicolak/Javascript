@@ -75,3 +75,10 @@ function bislem(event){
     2 -> mouse sağ tuşu
     4 -> mouse orta tuşu
 */
+/*  buttons
+    1 -> mouse sol tuşu
+    2 -> mouse sağ tuşu
+    4 -> mouse orta tuşu
+    8 -> back mouse
+    16 -> mouse ileri
+*/
