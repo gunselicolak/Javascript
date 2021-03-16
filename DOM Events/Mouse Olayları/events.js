@@ -38,3 +38,11 @@ function tiklaCtrl(event){
         alert("CTRL tuşuna basılmadı");
     }
 }
+function tiklaAlt(event){
+    if(event.altKey){
+        alert("ALT tuşu basılıyken mouse ile tıkladınız");
+        }
+    else{
+        alert("ALT tuşuna basılmadı");
+    }
+}
