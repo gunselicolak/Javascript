@@ -30,3 +30,11 @@ function yuklendi()
     console.log("Sayfa yüklendi...");
 }
 //window.onload=yuklendi;
+function tiklaCtrl(event){
+    if(event.ctrlKey){
+        alert("CTRL tuşu basılıyken mouse ile tıkladınız");
+    }
+    else{
+        alert("CTRL tuşuna basılmadı");
+    }
+}
