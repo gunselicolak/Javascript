@@ -1,11 +1,10 @@
+// Try Catch
 
-        // Try Catch
+var a = 10;
 
-        var a = 10;
-
-        try{
-            document.write(a+b)
-        }
-        catch(err){
-            document.write("Hatalı İşlem: " +err)
-        }
+try{
+        document.write(a+b)
+}
+catch(err){
+        document.write("Hatalı İşlem: " +err)
+}
