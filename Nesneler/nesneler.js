@@ -84,7 +84,6 @@
         }
     ];
 
-
 // Nesnelere Metod Ekleme : Nesne özelliğine fonksiyon tanımlamak
 
     var Insan = {
@@ -104,7 +103,6 @@
 
 // Prototype Nesneler Özellik Ekleme
     
-
 function araba(marka,renk,model)
 {
     this.marka = marka;
