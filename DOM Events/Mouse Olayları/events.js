@@ -85,3 +85,7 @@ function bislem(event){
 function bsislem(event){
     document.getElementById("cikti").innerHTML="Tıkladığınız Tuş : "+event.buttons;
 }
+// detail 
+function dislem(event){
+    document.getElementById("dcikti").innerHTML="Tıklama Sayınız : "+event.detail;
+}
