@@ -68,7 +68,7 @@ function wislem(event){
     2 -> mouse sağ tuşu
 */
 function bislem(event){
-    document.getElementById("cikti").innerHTML="Tıkladığınız Tuş : "+button.which;
+    document.getElementById("cikti").innerHTML="Tıkladığınız Tuş : "+event.button;
 }
 /*  Internet Explorer 8 ve öncesi eski tarayıcılarda
     1 -> mouse sol tuşu
@@ -82,3 +82,6 @@ function bislem(event){
     8 -> back mouse
     16 -> mouse ileri
 */
+function bsislem(event){
+    document.getElementById("cikti").innerHTML="Tıkladığınız Tuş : "+event.buttons;
+}
