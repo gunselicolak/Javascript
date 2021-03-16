@@ -89,3 +89,8 @@ function bsislem(event){
 function dislem(event){
     document.getElementById("dcikti").innerHTML="Tıklama Sayınız : "+event.detail;
 }
+// preventDefault()
+document.getElementById("tikla").addEventListener("click", function(event)
+{
+    event.preventDefault();
+})
