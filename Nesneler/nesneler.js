@@ -169,5 +169,4 @@ setHours: saati ayarlar.
 getMinutes: dakikayı döndürür.
 setMinutes: 
 
-
 */
