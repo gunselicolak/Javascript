@@ -70,3 +70,8 @@ function wislem(event){
 function bislem(event){
     document.getElementById("cikti").innerHTML="Tıkladığınız Tuş : "+button.which;
 }
+/*  Internet Explorer 8 ve öncesi eski tarayıcılarda
+    1 -> mouse sol tuşu
+    2 -> mouse sağ tuşu
+    4 -> mouse orta tuşu
+*/
