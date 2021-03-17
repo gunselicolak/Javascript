@@ -26,4 +26,3 @@
     topla = parseInt(sayi1) + parseInt(sayi2);
 
     document.getElementById("sonuc").innerHTML = topla;
-
