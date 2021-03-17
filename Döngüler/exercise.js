@@ -9,7 +9,6 @@
      document.writeln("<h"+i+">Günseli Çolak</h"+i+">");
  }
 
-
  /*
 2. Ödev
     Ekrana 1-10 arasındaki sayıları alt alta tek yazdırarak
