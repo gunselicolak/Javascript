@@ -12,7 +12,6 @@
     document.writeln("Bootstrop <br>");
     
     var g = "gunseli";
-
     document.write(g);
 
 // alert kullanımı
