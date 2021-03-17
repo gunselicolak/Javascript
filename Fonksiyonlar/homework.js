@@ -13,7 +13,6 @@ function yasHesap(dyil)
 document.write(yasHesap(1999)+"<br>");
 document.write(yasHesap(1958)+"<br>"+"<br>");
 
-
 /*
     Homework 2
     Fonksiyona ad ,yil size şöyle karşılama
