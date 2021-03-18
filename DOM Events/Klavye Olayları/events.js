@@ -5,6 +5,7 @@ function islem1(){
 
     document.getElementById("cikti1").innerHTML=i;
 }
+
 j=0;
 function islem2(){
     j+=1;
@@ -14,6 +15,7 @@ function islem2(){
         document.getElementById("cikti2").innerHTML=i+" karakter aşımı yaşandı.";
     }
 }
+
 // klavyede herhangi tıklama
 function down(){
     document.getElementById("sec").style.backgroundColor="red";
@@ -21,6 +23,7 @@ function down(){
 function up(){
     document.getElementById("sec").style.backgroundColor="green";
 }
+
 function islem3(event){
     var x = document.getElementById("cikti3");
 
