@@ -21,3 +21,16 @@ function down(){
 function up(){
     document.getElementById("sec").style.backgroundColor="green";
 }
+function islem3(event){
+    var x = document.getElementById("cikti3");
+
+    if(event.altKey){
+        x.innerHTML="ALT tuşuna basıldı.";
+    }
+    else if(event.ctrlKey){
+        x.innerHTML="CTRL tuşuna basıldı.";
+    }
+    else if(event.shiftKey){
+        x.innerHTML="SHIFT tuşuna basıldı."
+    }
+}
