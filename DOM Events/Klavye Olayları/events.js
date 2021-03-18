@@ -37,3 +37,11 @@ function islem3(event){
         x.innerHTML="SHIFT tuşuna basıldı."
     }
 }
+// charCode - key - keyCode
+// fromCharcode
+function islem4(event){
+    var x = event.which;
+
+    document.getElementById("cikti4").innerHTML="Unicode Karakter : "+x;
+
+}
