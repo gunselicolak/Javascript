@@ -37,11 +37,18 @@ function islem3(event){
         x.innerHTML="SHIFT tuşuna basıldı."
     }
 }
-// charCode - key - keyCode
-// fromCharcode
+// charCode - which - keyCode
 function islem4(event){
     var x = event.which;
 
     document.getElementById("cikti4").innerHTML="Unicode Karakter : "+x;
 
+    // fromCharcode
+}
+// key
+function islem5(event){
+    var x = event.key;
+
+    document.getElementById("cikti5").innerHTML="Basılan Karakter : "+x;
+    
 }
