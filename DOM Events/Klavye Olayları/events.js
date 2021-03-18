@@ -14,3 +14,10 @@ function islem2(){
         document.getElementById("cikti2").innerHTML=i+" karakter aşımı yaşandı.";
     }
 }
+// klavyede herhangi tıklama
+function down(){
+    document.getElementById("sec").style.backgroundColor="red";
+}
+function up(){
+    document.getElementById("sec").style.backgroundColor="green";
+}
