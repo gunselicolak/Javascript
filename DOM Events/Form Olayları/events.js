@@ -19,5 +19,8 @@ function kaybet(y){
 // oninput
 function islem3(){
     var x = document.getElementById("girdi1").value;
-    document.getElementById("cikti").innerHTML="Yazdıklarınız  :"+x;
+    document.getElementById("cikti1").innerHTML="Yazdıklarınız  :"+x;
+}
+function islem4(){
+    document.getElementById("cikti2").innerHTML="Form Temizlendi..";
 }
