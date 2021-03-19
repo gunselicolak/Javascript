@@ -23,16 +23,21 @@
     </select>
     <div id="secim"></div>
     
-    <br> <br>
+   <br> <br>
     <input onfocus="islem1(this)" type="text" placeholder="Bir tuşa basın" name="">
     
     <br> <br>
     <input onfocusin="islem2(this)" onfocusout="kaybet(this)" type="text" placeholder="Bir tuşa basın" name="">
-    <input onfocusin="islem2(this)" onfocusout="kaybet(this)" type="text" placeholder="Bir tuşa basın" name="">
 
     <br> <br>
-    <input id="girdi" oninput="islem3(this)" type="text" placeholder="Bir tuşa basın" name="">
+    <input id="girdi1" oninput="islem3(this)" type="text" placeholder="Bir tuşa basın" name="">
     <div id="cikti"></div>
+
+    <br> <br>
+    <from>
+        <input id="girdi2" required="" oninvalid="alert('Boş Bırakamazsın..')" type="text" placeholder="Bir tuşa basın" name="">
+        <button type="submit">Gönder</button>
+    </from>
 
 
     <script type="text/javascript" src="events.js">
