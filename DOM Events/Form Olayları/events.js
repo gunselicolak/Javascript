@@ -16,3 +16,8 @@ function islem2(x){
 function kaybet(y){
     y.style.background="red";
 }
+// oninput
+function islem3(){
+    var x = document.getElementById("girdi").value;
+    document.getElementById("cikti").innerHTML="Yazdıklarınız  :"+x;
+}
