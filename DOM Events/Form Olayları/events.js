@@ -24,3 +24,7 @@ function islem3(){
 function islem4(){
     document.getElementById("cikti2").innerHTML="Form Temizlendi..";
 }
+function islem5(){
+    var x = document.getElementById("girdi3");
+    document.getElementById("cikti3").innerHTML="Aranan Kelime :"+x.value;
+}
