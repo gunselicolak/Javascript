@@ -18,6 +18,6 @@ function kaybet(y){
 }
 // oninput
 function islem3(){
-    var x = document.getElementById("girdi").value;
+    var x = document.getElementById("girdi1").value;
     document.getElementById("cikti").innerHTML="Yazdıklarınız  :"+x;
 }
