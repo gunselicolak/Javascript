@@ -28,3 +28,7 @@ function islem5(){
     var x = document.getElementById("girdi3");
     document.getElementById("cikti3").innerHTML="Aranan Kelime :"+x.value;
 }
+function islem6(){
+    var x = document.getElementById("girdi4");
+    document.getElementById("cikti4").innerHTML="Seçim Yaptınız :"+x.value;
+}
