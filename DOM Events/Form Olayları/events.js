@@ -9,3 +9,10 @@ function islem1(x){
     x.style.background="blue";
     x.style.color="yellow";
 }
+function islem2(x){
+    x.style.background="blue";
+    x.style.color="yellow";
+}
+function kaybet(y){
+    y.style.background="red";
+}
