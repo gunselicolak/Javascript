@@ -4,3 +4,5 @@ function olustur(){
 function yaz(){
     document.getElementById("cikti").innerHTML=sessionStorage.getItem("name");
 }
+
+
