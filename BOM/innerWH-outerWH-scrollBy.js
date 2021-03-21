@@ -10,6 +10,7 @@ function goruntule2(){
 
     document.getElementById("cikti2").innerHTML="Width :" +w+" - "+"Height :"+h;
 }
+// pageXOffset - pageYOffset 
 function ilerle(){
     window.scrollBy(100,100);
     //window.scrollBy(100,""); // sadece sağa gider
