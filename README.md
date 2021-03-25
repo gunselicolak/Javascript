@@ -19,3 +19,5 @@ Adım adım javascript
   -> Nesneler
   
   -> DOM(Document Object Model)
+  
+  -> AJAX
